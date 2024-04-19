@@ -153,11 +153,60 @@ img {
     .row{
         display: flex;
         flex-direction: column;
+
+        flex-wrap: nowrap;
+        align-items: center;
     }
 
 
     .card{
         margin-top: 3rem;
     }
+    
+
+
+
+
+    .steps {
+        margin-bottom: 0;
+        padding: 3rem 0;
+        
+    }
+
+
+/* +contenuto rosa ------------------ */
+    .steps .col {
+        width: auto;
+    }
+/* +contenuto rosa ------FINE-------- */
+    
+    
+    
+    .text-center {
+        padding-top: 3rem;
+    }
+
+
+
+/* +footer ------------------------- */
+    .why-us{
+        background-color: black;
+        margin-bottom: 0;
+    }
+
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    
+/* +footer ----------FINE------------ */
+
     
   } /* *Fine della parte a 480px */
